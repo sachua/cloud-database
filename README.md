@@ -2,10 +2,10 @@
 A distributed and replicated storage service using Java.
 
 ## Approach
-* Storage servers (KVServers) are monitored and controlled by an External Configuration Service (ECS)
+* Storage servers (KVServers) are monitored and controlled by an External Configuration Service (ECS).
 <img src="https://user-images.githubusercontent.com/41395198/75396662-5a185f80-58f5-11ea-80e9-9d4573221f79.png" height="314" width="490.5">
 
-* Tasks are assigned to KVServers by consistent hashing
+* Tasks are assigned to KVServers by consistent hashing.
 
 * Virtual nodes are introduced to achieve load balancing. 
 
