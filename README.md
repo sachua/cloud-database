@@ -15,9 +15,9 @@ A distributed and replicated storage service using Java.
 * Eventual consistency is achieved by using an optimistic lazy Multi-Primary Replication using gossiping protocol.
 
 * KVservers can implement any of the 3 caching strategies:
- 1. FIFO (First In First Out)
- 2. LFU (Least Frequently Used)
- 3. LRU (Least Recently Used)
+   1. FIFO (First In First Out)
+   2. LFU (Least Frequently Used)
+   3. LRU (Least Recently Used)
  
  * Authentication and authorisation is also implemented based on the OAuth authentication framework, using JSON Web Token (JWT) as the access token.
  <img src="https://user-images.githubusercontent.com/41395198/75397741-e6c41d00-58f7-11ea-9520-2ba8f7d68b9b.png" height="314.5" width="490.5">
